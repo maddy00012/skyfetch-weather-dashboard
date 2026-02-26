@@ -1,0 +1,16 @@
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you ever use Node)
+node_modules/
+
+# Logs
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OneDrive metadata
+*.lnk
