@@ -1,5 +1,5 @@
 // Your OpenWeatherMap API Key
-const API_KEY = 'ada71051c9a3710aac102783c8ab7d3a';  // Replace with your actual API key
+const API_KEY = 'YOUR_API_KEY_HERE';  // Replace with your actual API key
 const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 // Function to fetch weather data
@@ -45,8 +45,5 @@ function displayWeather(data) {
     document.getElementById('weather-display').innerHTML = weatherHTML;
 }
 
-// Call the function when page loads
+// Call the function when page loads (Part 1: London hardcoded)
 getWeather('London');
-getWeather('Paris');     // Try Paris
-getWeather('New York');  // Try New York
-getWeather('Tokyo');     // Try Tokyo
